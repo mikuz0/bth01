@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="80" height="40" viewBox="0 0 80 40">
+  <!-- Вывод 1 (слева) -->
+  <line x1="0" y1="25" x2="30" y2="25" stroke="#000000" stroke-width="1.5"/>
+  <!-- Наклонный ключ (разомкнут) -->
+  <line x1="30" y1="25" x2="55" y2="12" stroke="#000000" stroke-width="1.5"/>
+  <!-- Вывод 2 (справа) -->
+  <line x1="60" y1="25" x2="80" y2="25" stroke="#000000" stroke-width="1.5"/>
+  <!-- Подписи pinNumber -->
+  <text x="6" y="21" font-family="Arial" font-size="8" fill="#000000">1</text>
+  <text x="70" y="21" font-family="Arial" font-size="8" fill="#000000">2</text>
+</svg>

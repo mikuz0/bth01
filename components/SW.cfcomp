@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 1,
+  "id": "c4b1e8a2-7d3f-4f9a-8b62-1e5c9a0d3f47",
+  "name": "Switch",
+  "description": "Выключатель (кнопка), 2 вывода",
+  "model3dPath": null,
+  "refPrefix": "SW",
+  "mainProperties": [
+    { "key": "Тип", "value": "Выключатель", "unit": "" },
+    { "key": "Количество полюсов", "value": "1", "unit": "" },
+    { "key": "Количество позиций", "value": "2", "unit": "" }
+  ],
+  "extraProperties": [
+    { "key": "T_A_min", "value": "нет данных", "unit": "°C" },
+    { "key": "T_A_max", "value": "нет данных", "unit": "°C" },
+    { "key": "T_j_min", "value": "нет данных", "unit": "°C" },
+    { "key": "T_j_max", "value": "нет данных", "unit": "°C" },
+    { "key": "T_stg_min", "value": "нет данных", "unit": "°C" },
+    { "key": "T_stg_max", "value": "нет данных", "unit": "°C" }
+  ],
+  "ports": [
+    { "number": 1, "pinNumber": "1", "name": "SW1", "description": "Первый контакт выключателя" },
+    { "number": 2, "pinNumber": "2", "name": "SW2", "description": "Второй контакт выключателя" }
+  ]
+}

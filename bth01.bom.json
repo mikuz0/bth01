@@ -6,7 +6,6 @@
             "refDes": "C5",
             "componentId": "2f01a16c-7d9d-4a35-aefd-a35759af652f",
             "componentSlug": "capacitor",
-            "description": "C5",
             "comment": "Ёмкость: 4.7, Корпус: 0603, Напряжение: 10, назн.: С5"
         },
         {
@@ -15,8 +14,222 @@
             "refDes": "C1",
             "componentId": "c8f7a6b5-9cad-4ebf-ba4b-5c6d7e8f9aab",
             "componentSlug": "capacitor",
-            "description": "C1",
             "comment": "Ёмкость: 4.7, Корпус: 0603, Напряжение: 10, Диэлектрик: X7R"
+        },
+        {
+            "bomnetId": "5c0358a8-534a-4df3-b427-44d620c46358",
+            "number": 3,
+            "refDes": "L2",
+            "componentId": "d9a8b7c6-adbe-4fc0-8b5c-6d7e8f9a0abc",
+            "componentSlug": "inductor",
+            "comment": "Индуктивность: 10, Ток насыщения: >300, Корпус: 0603"
+        },
+        {
+            "bomnetId": "aaba2924-14e3-4096-bf76-6a748b435e8b",
+            "number": 4,
+            "refDes": "C7",
+            "componentId": "fdca51f5-b417-4586-98cc-fcbff9960bd5",
+            "componentSlug": "capacitor",
+            "comment": "Ёмкость: 4.7, Корпус: 0603, Напряжение: 10, Диэлектрик: X7R"
+        },
+        {
+            "bomnetId": "118be1b0-4085-4889-9f33-3ee635a5adb0",
+            "number": 5,
+            "refDes": "R3",
+            "componentId": "49cd09d2-1355-4b02-a3fa-66806a87fe5c",
+            "componentSlug": "resistor",
+            "comment": "Номинал: 10, Мощность: 0.1, Допуск: ±1, Корпус: 0603"
+        },
+        {
+            "bomnetId": "d6386c42-e796-4153-ba7a-53dee5df8861",
+            "number": 6,
+            "refDes": "R4",
+            "componentId": "804a488d-3023-41a9-bdf2-675afe3d3764",
+            "componentSlug": "resistor",
+            "comment": "Номинал: 10, Мощность: 0.1, Допуск: ±1, Корпус: 0603"
+        },
+        {
+            "bomnetId": "68847438-8636-42ed-bfab-d45fc9685058",
+            "number": 7,
+            "refDes": "R5",
+            "componentId": "9d1b7aa1-9daa-40ff-a732-21c7968d1be3",
+            "componentSlug": "resistor",
+            "comment": "Номинал: 10, Мощность: 0.1, Допуск: ±1, Корпус: 0603"
+        },
+        {
+            "bomnetId": "90c12aaa-a079-476a-a4f1-ba38b11df43c",
+            "number": 8,
+            "refDes": "C4",
+            "componentId": "068a9eae-481a-4407-970c-d066f5b6decf",
+            "componentSlug": "capacitor",
+            "comment": "Ёмкость: 4.7, Корпус: 0603, Напряжение: 10, Диэлектрик: X7R"
+        },
+        {
+            "bomnetId": "02a7acf2-c95d-451a-bdc9-63f32a89f700",
+            "number": 9,
+            "refDes": "E1",
+            "componentId": "eab9c8d7-becf-4ad1-9c6d-7e8f9a0b1bcd",
+            "componentSlug": "antenna",
+            "comment": "Тип: PCB, Частота: 2400..2483.5"
+        },
+        {
+            "bomnetId": "df49ef4b-2547-41ab-95ac-c0dc12273c41",
+            "number": 10,
+            "refDes": "C18",
+            "componentId": "bc0bba66-1def-4f32-bf48-6628ccfd2851",
+            "componentSlug": "capacitor",
+            "comment": "Ёмкость: 4.7, Корпус: 0603, Напряжение: 10, Диэлектрик: X7R"
+        },
+        {
+            "bomnetId": "92809bef-28e3-412c-9a01-780601b7b92d",
+            "number": 11,
+            "refDes": "C9",
+            "componentId": "f90935d4-29e3-4231-83f9-c7f8fbd09b76",
+            "componentSlug": "capacitor",
+            "comment": "Ёмкость: 4.7, Корпус: 0603, Напряжение: 10, Диэлектрик: X7R"
+        },
+        {
+            "bomnetId": "be920cbd-d7b6-4fea-b2f2-1e1bc224c699",
+            "number": 12,
+            "refDes": "U1",
+            "componentId": "7f3a2b1c-4d5e-4f6a-8b9c-0d1e2f3a4b5c",
+            "componentSlug": "phy6222",
+            "comment": "Ядро: ARM Cortex-M0, Частота: 48, Flash: 256, RAM: 64, Версия BLE: 5.2, Корпус: QFN32"
+        },
+        {
+            "bomnetId": "599ac301-db9d-4190-989c-355a08239d38",
+            "number": 13,
+            "refDes": "L3",
+            "componentId": "d4e5f6a7-b8c9-4d0e-1f2a-3b4c5d6e7f8a",
+            "componentSlug": "inductor",
+            "comment": "Индуктивность: 10, Ток насыщения: >300"
+        },
+        {
+            "bomnetId": "f87f0cde-3064-43eb-ba9b-f50b4e31b2ad",
+            "number": 14,
+            "refDes": "C14",
+            "componentId": "c3d4e5f6-a7b8-4c9d-0e1f-2a3b4c5d6e7f",
+            "componentSlug": "capacitor",
+            "comment": "Диэлектрик: X7R, Напряжение: 50, Корпус: 0603"
+        },
+        {
+            "bomnetId": "ac687ea0-85e4-4c09-8862-784560020791",
+            "number": 15,
+            "refDes": "C15",
+            "componentId": "b7e6f5a4-8b9c-4dae-af3a-4b5c6d7e8f9a",
+            "componentSlug": "capacitor",
+            "comment": "Ёмкость: 2.2, Корпус: 0603, Напряжение: 10, Диэлектрик: X7R"
+        },
+        {
+            "bomnetId": "5466829e-da0a-406c-9c97-d271a394d835",
+            "number": 16,
+            "refDes": "C22",
+            "componentId": "1027cf80-9916-4874-aa7a-16eceeea73d4",
+            "componentSlug": "capacitor",
+            "comment": "Ёмкость: 4.7, Корпус: 0603, Напряжение: 10, Диэлектрик: X7R"
+        },
+        {
+            "bomnetId": "92b07556-512a-4adc-8f29-373ef83428af",
+            "number": 17,
+            "refDes": "C20",
+            "componentId": "877f9396-2a17-4264-9bed-0214343cf8c6",
+            "componentSlug": "capacitor",
+            "comment": "Ёмкость: 4.7, Корпус: 0603, Напряжение: 10, Диэлектрик: X7R"
+        },
+        {
+            "bomnetId": "4a42e609-d498-4483-be09-ec452fc8eb80",
+            "number": 18,
+            "refDes": "C19",
+            "componentId": "5b4dcb5e-240b-4bd8-8b23-a749e2ec0fca",
+            "componentSlug": "capacitor",
+            "comment": "Ёмкость: 4.7, Корпус: 0603, Напряжение: 10, Диэлектрик: X7R"
+        },
+        {
+            "bomnetId": "7acfd6ab-121a-4ff7-a572-f763313f96f8",
+            "number": 19,
+            "refDes": "R10",
+            "componentId": "6ac6da21-1216-47cc-948c-6937efdde78f",
+            "componentSlug": "resistor",
+            "comment": "Номинал: 10, Мощность: 0.1, Допуск: ±1, Корпус: 0603"
+        },
+        {
+            "bomnetId": "4c265a46-7483-4195-b11f-50a2a799042f",
+            "number": 20,
+            "refDes": "R9",
+            "componentId": "7b04aa9e-fb15-4fde-a881-a3f1e4c1edb1",
+            "componentSlug": "resistor",
+            "comment": "Номинал: 10, Мощность: 0.1, Допуск: ±1, Корпус: 0603"
+        },
+        {
+            "bomnetId": "72301712-528a-4d94-802a-c3915508d339",
+            "number": 21,
+            "refDes": "C10",
+            "componentId": "35f90453-491c-4b3c-b9ed-568e5c477ad6",
+            "componentSlug": "capacitor",
+            "comment": "Ёмкость: 4.7, Корпус: 0603, Напряжение: 10, Диэлектрик: X7R"
+        },
+        {
+            "bomnetId": "b75d0de2-5e7b-440a-8564-10b7ab525016",
+            "number": 22,
+            "refDes": "R8",
+            "componentId": "00d732a4-7a88-423d-b461-997e0dda1c58",
+            "componentSlug": "resistor",
+            "comment": "Номинал: 10, Мощность: 0.1, Допуск: ±1, Корпус: 0603"
+        },
+        {
+            "bomnetId": "1c0d86df-ff33-463f-ad22-8c3eb5a61403",
+            "number": 23,
+            "refDes": "C2",
+            "componentId": "80c49294-4bfe-40ec-a38e-812570d5d8ed",
+            "componentSlug": "capacitor",
+            "comment": "Ёмкость: 4.7, Корпус: 0603, Напряжение: 10, Диэлектрик: X7R"
+        },
+        {
+            "bomnetId": "4b21a51e-be58-4200-9e48-f4b651af3d0f",
+            "number": 24,
+            "refDes": "C13",
+            "componentId": "f9105677-56d2-48ca-b884-bb591a66b1bf",
+            "componentSlug": "capacitor",
+            "comment": "Ёмкость: 4.7, Корпус: 0603, Напряжение: 10, назн.: С13"
+        },
+        {
+            "bomnetId": "014a04be-1109-441d-9cf5-b1b83dab4063",
+            "number": 25,
+            "refDes": "C12",
+            "componentId": "a6d5e4f3-7a8b-4c9d-be2f-3a4b5c6d7e8f",
+            "componentSlug": "capacitor",
+            "comment": "Ёмкость: 100, Корпус: 0805, Напряжение: 50, Диэлектрик: X7R"
+        },
+        {
+            "bomnetId": "bd6a5af2-c0ee-4676-a508-909f2aff00dd",
+            "number": 26,
+            "refDes": "R2",
+            "componentId": "f094478c-941f-4917-8d1e-f67129de11a9",
+            "componentSlug": "resistor",
+            "comment": "Номинал: 10, Мощность: 0.1, Допуск: ±1, Корпус: 0603"
+        },
+        {
+            "bomnetId": "23615814-74f7-44aa-a342-62cf3d64bc77",
+            "number": 27,
+            "refDes": "C11",
+            "componentId": "9b5c4d3e-6f7a-4b8c-ad1e-2f3a4b5c6d7e",
+            "componentSlug": "capacitor",
+            "comment": "Ёмкость: 1, Корпус: 0603, Напряжение: 25, Диэлектрик: X7R"
+        },
+        {
+            "bomnetId": "b10c0a79-3fd5-461a-a830-9cc19aaf5533",
+            "number": 28,
+            "refDes": "R7",
+            "componentId": "7109c996-7ff1-4216-bdd8-05768e0b659a",
+            "componentSlug": "resistor",
+            "comment": "Номинал: 10, Мощность: 0.1, Допуск: ±1, Корпус: 0603"
+        },
+        {
+            "bomnetId": "1fdcd45a-76d6-4812-a093-2c64301f6baf",
+            "number": 29,
+            "refDes": "SW1",
+            "componentId": "c4b1e8a2-7d3f-4f9a-8b62-1e5c9a0d3f47",
+            "componentSlug": "switch"
         }
     ]
 }
