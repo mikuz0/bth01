@@ -1,0 +1,85 @@
+{
+    "id": "8a4b3c2d-5e6f-4a7b-9c0d-1e2f3a4b5c6d",
+    "name": "Crystal",
+    "description": "Quartz resonator 16MHz, 12pF load, 10ppm, 4-pin SMD",
+    "refPrefix": "X",
+    "ports": [
+        {
+            "number": 1,
+            "pinNumber": "1",
+            "name": "XC1",
+            "description": "Crystal terminal 1"
+        },
+        {
+            "number": 2,
+            "pinNumber": "2",
+            "name": "GND",
+            "description": "Ground"
+        },
+        {
+            "number": 3,
+            "pinNumber": "3",
+            "name": "XC2",
+            "description": "Crystal terminal 2"
+        },
+        {
+            "number": 4,
+            "pinNumber": "4",
+            "name": "GND",
+            "description": "Ground"
+        }
+    ],
+    "mainProperties": [
+        {
+            "key": "Частота",
+            "value": "16",
+            "unit": "МГц"
+        },
+        {
+            "key": "Нагрузка",
+            "value": "12",
+            "unit": "пФ"
+        },
+        {
+            "key": "Точность",
+            "value": "10",
+            "unit": "ppm"
+        },
+        {
+            "key": "Корпус",
+            "value": "3215"
+        }
+    ],
+    "extraProperties": [
+        {
+            "key": "T_A_min",
+            "value": "-40",
+            "unit": "°C"
+        },
+        {
+            "key": "T_A_max",
+            "value": "+85",
+            "unit": "°C"
+        },
+        {
+            "key": "T_j_min",
+            "value": "нет данных",
+            "unit": "°C"
+        },
+        {
+            "key": "T_j_max",
+            "value": "нет данных",
+            "unit": "°C"
+        },
+        {
+            "key": "T_stg_min",
+            "value": "-40",
+            "unit": "°C"
+        },
+        {
+            "key": "T_stg_max",
+            "value": "+85",
+            "unit": "°C"
+        }
+    ]
+}

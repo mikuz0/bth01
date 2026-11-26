@@ -1,0 +1,68 @@
+{
+    "id": "d9a8b7c6-adbe-4fc0-8b5c-6d7e8f9a0abc",
+    "name": "Inductor",
+    "description": "L2",
+    "refPrefix": "L",
+    "ports": [
+        {
+            "number": 1,
+            "pinNumber": "1",
+            "name": "Pin1",
+            "description": "Terminal 1"
+        },
+        {
+            "number": 2,
+            "pinNumber": "2",
+            "name": "Pin2",
+            "description": "Terminal 2"
+        }
+    ],
+    "mainProperties": [
+        {
+            "key": "Индуктивность",
+            "value": "10",
+            "unit": "мкГн"
+        },
+        {
+            "key": "Ток насыщения",
+            "value": ">300",
+            "unit": "мА"
+        },
+        {
+            "key": "Корпус",
+            "value": "0603"
+        }
+    ],
+    "extraProperties": [
+        {
+            "key": "T_A_min",
+            "value": "-40",
+            "unit": "°C"
+        },
+        {
+            "key": "T_A_max",
+            "value": "+85",
+            "unit": "°C"
+        },
+        {
+            "key": "T_j_min",
+            "value": "нет данных",
+            "unit": "°C"
+        },
+        {
+            "key": "T_j_max",
+            "value": "нет данных",
+            "unit": "°C"
+        },
+        {
+            "key": "T_stg_min",
+            "value": "-40",
+            "unit": "°C"
+        },
+        {
+            "key": "T_stg_max",
+            "value": "+85",
+            "unit": "°C"
+        }
+    ]
+}

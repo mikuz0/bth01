@@ -1,0 +1,118 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 1100" width="400" height="1100">
+  <rect width="100%" height="100%" fill="#ffffff"/>
+
+  <!-- PCB Outline -->
+  <path d="M 120 10 L 320 10 L 320 75 L 360 75 L 360 1050 L 40 1050 L 40 300 L 120 300 L 120 10 Z" fill="none" stroke="#000000" stroke-width="1.5"/>
+
+  <!-- Antenna Meander -->
+  <path d="M 150 10 L 150 60 L 180 60 L 180 30 L 210 30 L 210 60 L 240 60 L 240 30 L 270 30 L 270 60 L 300 60 L 300 30 L 320 30" fill="none" stroke="#000000" stroke-width="1.5"/>
+
+  <!-- Top Section: RF & Oscillator -->
+  <!-- U1 (Main IC) -->
+  <rect x="150" y="300" width="65" height="65" fill="none" stroke="#000000" stroke-width="1"/>
+  <!-- Pins U1 (simplified) -->
+  <line x1="150" y1="310" x2="145" y2="310" stroke="#000000" stroke-width="1"/>
+  <line x1="150" y1="320" x2="145" y2="320" stroke="#000000" stroke-width="1"/>
+  <line x1="150" y1="330" x2="145" y2="330" stroke="#000000" stroke-width="1"/>
+  <line x1="150" y1="340" x2="145" y2="340" stroke="#000000" stroke-width="1"/>
+  <line x1="150" y1="350" x2="145" y2="350" stroke="#000000" stroke-width="1"/>
+  <line x1="215" y1="310" x2="220" y2="310" stroke="#000000" stroke-width="1"/>
+  <line x1="215" y1="320" x2="220" y2="320" stroke="#000000" stroke-width="1"/>
+  <line x1="215" y1="330" x2="220" y2="330" stroke="#000000" stroke-width="1"/>
+  <line x1="215" y1="340" x2="220" y2="340" stroke="#000000" stroke-width="1"/>
+  <line x1="215" y1="350" x2="220" y2="350" stroke="#000000" stroke-width="1"/>
+
+  <!-- X1 (Crystal) -->
+  <rect x="240" y="370" width="45" height="30" fill="none" stroke="#000000" stroke-width="1"/>
+  <text x="255" y="388" font-family="sans-serif" font-size="8" fill="#000000">16.000</text>
+  <text x="260" y="396" font-family="sans-serif" font-size="8" fill="#000000">MHz</text>
+
+  <!-- L3 (Inductor) -->
+  <circle cx="135" cy="430" r="28" fill="none" stroke="#000000" stroke-width="1"/>
+  <text x="120" y="435" font-family="sans-serif" font-size="10" fill="#000000">100T</text>
+
+  <!-- Passives Top (C7, C5, L2, R5, C4, C1, C9, C3) -->
+  <rect x="250" y="150" width="15" height="10" fill="none" stroke="#000000" stroke-width="1"/>
+  <rect x="280" y="150" width="15" height="10" fill="none" stroke="#000000" stroke-width="1"/>
+  <rect x="250" y="180" width="15" height="10" fill="none" stroke="#000000" stroke-width="1"/>
+  <rect x="280" y="180" width="15" height="10" fill="none" stroke="#000000" stroke-width="1"/>
+  <rect x="250" y="210" width="15" height="10" fill="none" stroke="#000000" stroke-width="1"/>
+  <rect x="250" y="290" width="15" height="10" fill="none" stroke="#000000" stroke-width="1"/>
+  <rect x="250" y="310" width="15" height="10" fill="none" stroke="#000000" stroke-width="1"/>
+  <rect x="280" y="400" width="15" height="10" fill="none" stroke="#000000" stroke-width="1"/>
+
+  <!-- Passives Mid (R9, R8, C10, C2, C13, C12, C14, C15, C18, R4) -->
+  <rect x="210" y="470" width="15" height="10" fill="none" stroke="#000000" stroke-width="1"/>
+  <rect x="250" y="470" width="15" height="10" fill="none" stroke="#000000" stroke-width="1"/>
+  <rect x="210" y="490" width="15" height="10" fill="none" stroke="#000000" stroke-width="1"/>
+  <rect x="250" y="490" width="15" height="10" fill="none" stroke="#000000" stroke-width="1"/>
+  <rect x="210" y="510" width="15" height="10" fill="none" stroke="#000000" stroke-width="1"/>
+  <rect x="250" y="510" width="15" height="10" fill="none" stroke="#000000" stroke-width="1"/>
+  <rect x="210" y="550" width="25" height="15" fill="none" stroke="#000000" stroke-width="1"/>
+  <rect x="180" y="400" width="15" height="10" fill="none" stroke="#000000" stroke-width="1"/>
+  <rect x="180" y="415" width="15" height="10" fill="none" stroke="#000000" stroke-width="1"/>
+  <rect x="110" y="290" width="10" height="15" fill="none" stroke="#000000" stroke-width="1"/>
+  <rect x="140" y="280" width="10" height="15" fill="none" stroke="#000000" stroke-width="1"/>
+
+  <!-- Bottom Section: Power & Connectors -->
+  <!-- C20, C19, R10 -->
+  <rect x="100" y="510" width="15" height="10" fill="none" stroke="#000000" stroke-width="1"/>
+  <rect x="125" y="510" width="15" height="10" fill="none" stroke="#000000" stroke-width="1"/>
+  <rect x="145" y="520" width="15" height="10" fill="none" stroke="#000000" stroke-width="1"/>
+
+  <!-- R2, C11 -->
+  <rect x="80" y="780" width="15" height="10" fill="none" stroke="#000000" stroke-width="1"/>
+  <rect x="80" y="800" width="15" height="10" fill="none" stroke="#000000" stroke-width="1"/>
+
+  <!-- R7 -->
+  <rect x="180" y="820" width="10" height="15" fill="none" stroke="#000000" stroke-width="1"/>
+
+  <!-- U4 (Bottom Left Connector/Pads) -->
+  <rect x="45" y="970" width="70" height="40" fill="none" stroke="#000000" stroke-width="1"/>
+  <rect x="55" y="980" width="10" height="10" fill="none" stroke="#000000" stroke-width="1"/>
+  <rect x="75" y="980" width="10" height="10" fill="none" stroke="#000000" stroke-width="1"/>
+  <rect x="95" y="980" width="10" height="10" fill="none" stroke="#000000" stroke-width="1"/>
+  <circle cx="120" cy="995" r="8" fill="none" stroke="#000000" stroke-width="1"/>
+
+  <!-- S1 (Bottom Right Connector) -->
+  <rect x="180" y="970" width="110" height="40" fill="none" stroke="#000000" stroke-width="1"/>
+  <rect x="200" y="965" width="10" height="10" fill="none" stroke="#000000" stroke-width="1"/>
+  <rect x="260" y="965" width="10" height="10" fill="none" stroke="#000000" stroke-width="1"/>
+
+  <!-- Test Points / Large Vias -->
+  <circle cx="155" cy="235" r="12" fill="none" stroke="#000000" stroke-width="1"/>
+  <circle cx="205" cy="240" r="12" fill="none" stroke="#000000" stroke-width="1"/>
+  <circle cx="330" cy="200" r="12" fill="none" stroke="#000000" stroke-width="1"/>
+  <circle cx="330" cy="310" r="12" fill="none" stroke="#000000" stroke-width="1"/>
+  <circle cx="330" cy="350" r="12" fill="none" stroke="#000000" stroke-width="1"/>
+  <circle cx="330" cy="400" r="12" fill="none" stroke="#000000" stroke-width="1"/>
+  <circle cx="300" cy="650" r="12" fill="none" stroke="#000000" stroke-width="1"/>
+  <circle cx="75" cy="710" r="12" fill="none" stroke="#000000" stroke-width="1"/>
+  <circle cx="215" cy="765" r="12" fill="none" stroke="#000000" stroke-width="1"/>
+  <circle cx="170" cy="795" r="12" fill="none" stroke="#000000" stroke-width="1"/>
+  <circle cx="310" cy="795" r="12" fill="none" stroke="#000000" stroke-width="1"/>
+
+  <!-- Mounting Hole -->
+  <circle cx="190" cy="660" r="35" fill="none" stroke="#000000" stroke-width="1.5"/>
+
+  <!-- Labels -->
+  <text x="60" y="210" font-family="sans-serif" font-size="16" fill="#000000" font-weight="bold">CHT8320_VDD</text>
+  <text x="230" y="250" font-family="sans-serif" font-size="14" fill="#000000">MARK2</text>
+  <text x="300" y="295" font-family="sans-serif" font-size="14" fill="#000000">REST_N</text>
+  <text x="50" y="340" font-family="sans-serif" font-size="14" fill="#000000">TN</text>
+  <text x="50" y="370" font-family="sans-serif" font-size="14" fill="#000000">TX1</text>
+  <text x="50" y="400" font-family="sans-serif" font-size="14" fill="#000000">RX1</text>
+  <text x="295" y="360" font-family="sans-serif" font-size="14" fill="#000000">TX2</text>
+  <text x="295" y="390" font-family="sans-serif" font-size="14" fill="#000000">RX2</text>
+  <text x="50" y="610" font-family="sans-serif" font-size="18" fill="#000000" font-weight="bold">BTH01Y_V3.1</text>
+  <text x="50" y="640" font-family="sans-serif" font-size="18" fill="#000000" font-weight="bold">2025-01-06</text>
+  <text x="50" y="690" font-family="sans-serif" font-size="14" fill="#000000">MARK1</text>
+  <text x="255" y="690" font-family="sans-serif" font-size="14" fill="#000000">CHT8320_SDA</text>
+  <text x="65" y="760" font-family="sans-serif" font-size="14" fill="#000000">CHT8320_SCL</text>
+  <text x="285" y="760" font-family="sans-serif" font-size="14" fill="#000000">VBAT+</text>
+  <text x="185" y="800" font-family="sans-serif" font-size="14" fill="#000000">VBAT-</text>
+  <text x="75" y="860" font-family="sans-serif" font-size="22" fill="#000000" font-weight="bold">BAT-</text>
+  <text x="235" y="860" font-family="sans-serif" font-size="22" fill="#000000" font-weight="bold">BAT+</text>
+  <text x="25" y="960" font-family="sans-serif" font-size="16" fill="#000000">U4</text>
+  <text x="235" y="960" font-family="sans-serif" font-size="16" fill="#000000">S1</text>
+</svg>

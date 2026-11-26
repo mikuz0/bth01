@@ -1,0 +1,52 @@
+{
+    "id": "acc359f4-8a97-42dc-b783-67076a7784cd",
+    "name": "ContactPad",
+    "description": "RST-N",
+    "refPrefix": "XT",
+    "ports": [
+        {
+            "number": 1,
+            "pinNumber": "1",
+            "name": "Signal",
+            "description": "RF feed"
+        }
+    ],
+    "mainProperties": [
+        {
+            "key": "Тип",
+            "value": "PCB"
+        }
+    ],
+    "extraProperties": [
+        {
+            "key": "T_A_min",
+            "value": "нет данных",
+            "unit": "°C"
+        },
+        {
+            "key": "T_A_max",
+            "value": "нет данных",
+            "unit": "°C"
+        },
+        {
+            "key": "T_j_min",
+            "value": "нет данных",
+            "unit": "°C"
+        },
+        {
+            "key": "T_j_max",
+            "value": "нет данных",
+            "unit": "°C"
+        },
+        {
+            "key": "T_stg_min",
+            "value": "нет данных",
+            "unit": "°C"
+        },
+        {
+            "key": "T_stg_max",
+            "value": "нет данных",
+            "unit": "°C"
+        }
+    ]
+}

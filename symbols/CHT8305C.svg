@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="200" height="200" viewBox="0 0 200 200">
+  <style>
+    .body { fill: #FFFFCC; stroke: #000000; stroke-width: 2; }
+    .pin-line { stroke: #000000; stroke-width: 2; }
+    .pin-text { font-family: Arial; font-size: 10px; fill: #000000; }
+    .pin-num { font-family: Arial; font-size: 8px; fill: #000000; }
+  </style>
+
+  <!-- Body -->
+  <rect x="60" y="50" width="80" height="100" class="body" />
+
+  <!-- Pins Left (1, 2, 3) -->
+  <line x1="20" y1="70" x2="60" y2="70" class="pin-line" />
+  <text x="25" y="65" class="pin-text">SDA</text>
+  <text x="65" y="65" class="pin-num">1</text>
+
+  <line x1="20" y1="100" x2="60" y2="100" class="pin-line" />
+  <text x="25" y="95" class="pin-text">GND</text>
+  <text x="65" y="95" class="pin-num">2</text>
+
+  <line x1="20" y1="130" x2="60" y2="130" class="pin-line" />
+  <text x="15" y="125" class="pin-text">ALERT</text>
+  <text x="65" y="125" class="pin-num">3</text>
+
+  <!-- Pins Right (6, 5, 4) -->
+  <line x1="140" y1="70" x2="180" y2="70" class="pin-line" />
+  <text x="150" y="65" class="pin-text">SCL</text>
+  <text x="130" y="65" class="pin-num">6</text>
+
+  <line x1="140" y1="100" x2="180" y2="100" class="pin-line" />
+  <text x="150" y="95" class="pin-text">VCC</text>
+  <text x="130" y="95" class="pin-num">5</text>
+
+  <line x1="140" y1="130" x2="180" y2="130" class="pin-line" />
+  <text x="150" y="125" class="pin-text">AD0</text>
+  <text x="130" y="125" class="pin-num">4</text>
+</svg>

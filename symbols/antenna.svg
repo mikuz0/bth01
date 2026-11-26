@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="60" height="80" viewBox="0 0 60 80">
+  <!-- Фидер (нижняя ножка) -->
+  <line x1="30" y1="42" x2="30" y2="78" stroke="black" stroke-width="4" stroke-linecap="round"/>
+  <!-- Левый луч -->
+  <line x1="30" y1="42" x2="6"  y2="8"  stroke="black" stroke-width="4" stroke-linecap="round"/>
+  <!-- Средний луч -->
+  <line x1="30" y1="42" x2="30" y2="6"  stroke="black" stroke-width="4" stroke-linecap="round"/>
+  <!-- Правый луч -->
+  <line x1="30" y1="42" x2="54" y2="8"  stroke="black" stroke-width="4" stroke-linecap="round"/>
+</svg>

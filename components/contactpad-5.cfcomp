@@ -1,0 +1,52 @@
+{
+    "id": "c774c657-c0af-417a-8a6f-2c2669e3b441",
+    "name": "ContactPad",
+    "description": "RX1",
+    "refPrefix": "XT",
+    "ports": [
+        {
+            "number": 1,
+            "pinNumber": "1",
+            "name": "Signal",
+            "description": "RF feed"
+        }
+    ],
+    "mainProperties": [
+        {
+            "key": "Тип",
+            "value": "PCB"
+        }
+    ],
+    "extraProperties": [
+        {
+            "key": "T_A_min",
+            "value": "нет данных",
+            "unit": "°C"
+        },
+        {
+            "key": "T_A_max",
+            "value": "нет данных",
+            "unit": "°C"
+        },
+        {
+            "key": "T_j_min",
+            "value": "нет данных",
+            "unit": "°C"
+        },
+        {
+            "key": "T_j_max",
+            "value": "нет данных",
+            "unit": "°C"
+        },
+        {
+            "key": "T_stg_min",
+            "value": "нет данных",
+            "unit": "°C"
+        },
+        {
+            "key": "T_stg_max",
+            "value": "нет данных",
+            "unit": "°C"
+        }
+    ]
+}

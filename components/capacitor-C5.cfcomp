@@ -1,0 +1,77 @@
+{
+    "id": "2f01a16c-7d9d-4a35-aefd-a35759af652f",
+    "name": "Capacitor",
+    "description": "C5",
+    "refPrefix": "C",
+    "ports": [
+        {
+            "number": 1,
+            "pinNumber": "1",
+            "name": "Pin1",
+            "description": "Terminal 1"
+        },
+        {
+            "number": 2,
+            "pinNumber": "2",
+            "name": "Pin2",
+            "description": "Terminal 2"
+        }
+    ],
+    "mainProperties": [
+        {
+            "key": "Ёмкость",
+            "value": "4.7",
+            "unit": "мкФ"
+        },
+        {
+            "key": "Корпус",
+            "value": "0603"
+        },
+        {
+            "key": "Напряжение",
+            "value": "10",
+            "unit": "В"
+        },
+        {
+            "key": "назн.",
+            "value": "С5"
+        }
+    ],
+    "extraProperties": [
+        {
+            "key": "Допуск",
+            "value": "±10",
+            "unit": "%"
+        },
+        {
+            "key": "T_A_min",
+            "value": "-55",
+            "unit": "°C"
+        },
+        {
+            "key": "T_A_max",
+            "value": "+125",
+            "unit": "°C"
+        },
+        {
+            "key": "T_j_min",
+            "value": "нет данных",
+            "unit": "°C"
+        },
+        {
+            "key": "T_j_max",
+            "value": "нет данных",
+            "unit": "°C"
+        },
+        {
+            "key": "T_stg_min",
+            "value": "-55",
+            "unit": "°C"
+        },
+        {
+            "key": "T_stg_max",
+            "value": "+125",
+            "unit": "°C"
+        }
+    ]
+}

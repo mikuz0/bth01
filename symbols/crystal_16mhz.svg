@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="160" height="120" viewBox="0 0 160 120">
+  <defs>
+    <style>
+      .pin-line { stroke: #800000; stroke-width: 1.5; fill: none; }
+      .pin-text { fill: #000; font-size: 9px; font-family: sans-serif; }
+      .pin-num { fill: #000; font-size: 8px; font-family: sans-serif; text-anchor: middle; }
+      .body { fill: #FFFFCC; stroke: #000; stroke-width: 1.5; }
+      .label { fill: #000; font-size: 10px; font-family: sans-serif; }
+    </style>
+  </defs>
+
+  <!-- Crystal Body (4-pin SMD style) -->
+  <rect x="40" y="30" width="80" height="60" class="body" rx="2"/>
+  
+  <!-- Crystal Symbol inside -->
+  <line x1="60" y1="60" x2="70" y2="60" stroke="#000" stroke-width="1.5"/>
+  <line x1="70" y1="45" x2="70" y2="75" stroke="#000" stroke-width="1.5"/>
+  <line x1="80" y1="45" x2="80" y2="75" stroke="#000" stroke-width="1.5"/>
+  <line x1="80" y1="60" x2="90" y2="60" stroke="#000" stroke-width="1.5"/>
+  
+  <!-- Text Label -->
+  <text x="80" y="85" class="label" text-anchor="middle" font-size="8px">16MHz</text>
+
+  <!-- Pins -->
+  <!-- Pin 1 (Left) -->
+  <g>
+    <line x1="40" y1="45" x2="0" y2="45" class="pin-line"/>
+    <text x="-5" y="48" class="pin-num" text-anchor="end">1</text>
+    <text x="45" y="48" class="pin-text">X1</text>
+  </g>
+  
+  <!-- Pin 2 (Left/Bottom) -->
+  <g>
+    <line x1="40" y1="75" x2="0" y2="75" class="pin-line"/>
+    <text x="-5" y="78" class="pin-num" text-anchor="end">2</text>
+    <text x="45" y="78" class="pin-text">GND</text>
+  </g>
+
+  <!-- Pin 3 (Right/Bottom) -->
+  <g>
+    <line x1="120" y1="75" x2="160" y2="75" class="pin-line"/>
+    <text x="165" y="78" class="pin-num" text-anchor="start">3</text>
+    <text x="115" y="78" class="pin-text" text-anchor="end">GND</text>
+  </g>
+
+  <!-- Pin 4 (Right) -->
+  <g>
+    <line x1="120" y1="45" x2="160" y2="45" class="pin-line"/>
+    <text x="165" y="48" class="pin-num" text-anchor="start">4</text>
+    <text x="115" y="48" class="pin-text" text-anchor="end">X2</text>
+  </g>
+</svg>

@@ -1,0 +1,67 @@
+{
+    "id": "c3d4e5f6-a7b8-4c9d-0e1f-2a3b4c5d6e7f",
+    "name": "Capacitor",
+    "description": "C14",
+    "refPrefix": "C",
+    "ports": [
+        {
+            "number": 1,
+            "pinNumber": "1",
+            "name": "Pin1",
+            "description": "Terminal 1"
+        },
+        {
+            "number": 2,
+            "pinNumber": "2",
+            "name": "Pin2",
+            "description": "Terminal 2"
+        }
+    ],
+    "mainProperties": [
+        {
+            "key": "Диэлектрик",
+            "value": "X7R"
+        },
+        {
+            "key": "Напряжение",
+            "value": "50",
+            "unit": "В"
+        },
+        {
+            "key": "Корпус",
+            "value": "0603"
+        }
+    ],
+    "extraProperties": [
+        {
+            "key": "T_A_min",
+            "value": "-55",
+            "unit": "°C"
+        },
+        {
+            "key": "T_A_max",
+            "value": "+125",
+            "unit": "°C"
+        },
+        {
+            "key": "T_j_min",
+            "value": "нет данных",
+            "unit": "°C"
+        },
+        {
+            "key": "T_j_max",
+            "value": "нет данных",
+            "unit": "°C"
+        },
+        {
+            "key": "T_stg_min",
+            "value": "-55",
+            "unit": "°C"
+        },
+        {
+            "key": "T_stg_max",
+            "value": "+125",
+            "unit": "°C"
+        }
+    ]
+}

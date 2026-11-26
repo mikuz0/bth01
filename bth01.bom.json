@@ -1,0 +1,22 @@
+{
+    "items": [
+        {
+            "bomnetId": "3a939aa9-be94-43d1-b6e3-213b4b10b7a8",
+            "number": 1,
+            "refDes": "C5",
+            "componentId": "2f01a16c-7d9d-4a35-aefd-a35759af652f",
+            "componentSlug": "capacitor",
+            "description": "C5",
+            "comment": "Ёмкость: 4.7, Корпус: 0603, Напряжение: 10, назн.: С5"
+        },
+        {
+            "bomnetId": "21196f7d-8a83-4595-9360-97dab191f2c5",
+            "number": 2,
+            "refDes": "C1",
+            "componentId": "c8f7a6b5-9cad-4ebf-ba4b-5c6d7e8f9aab",
+            "componentSlug": "capacitor",
+            "description": "C1",
+            "comment": "Ёмкость: 4.7, Корпус: 0603, Напряжение: 10, Диэлектрик: X7R"
+        }
+    ]
+}
